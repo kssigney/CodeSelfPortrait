@@ -25,8 +25,8 @@ arc(250, 125, 40, 20, PI,0); //righteyebrow
 noStroke()
 fill(0, 0, 0);
 arc(225, 100, 150, 75, PI, 0);
-triangle(150,100, 100, 150, 300, 100);
-arc(300, 100, 80, 80, QUARTER_PI, PI+QUARTER_PI);
+triangle(150,100, 100, 150, 300, 100); //lefthairpart
+arc(300, 100, 80, 80, QUARTER_PI, PI+QUARTER_PI); //righthairpart
 
 //Eyeball
 fill(255); 
